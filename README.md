@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -91,7 +90,7 @@
 
     <div class="foto">
       <!-- Cambia la ruta de la imagen -->
-      <img src="foto-amigos.jpg" alt="Los futuros esposos">
+      <img src="foto-amigos.png" alt="Los futuros esposos">
     </div>
 
     <p>
