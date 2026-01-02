@@ -5,6 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+  import { getFirestore } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyBBJwB7goplMb2WJpBvJU5rsvoueD84glg",
+    authDomain: "despedida-ba71a.firebaseapp.com",
+    projectId: "despedida-ba71a",
+    storageBucket: "despedida-ba71a.firebasestorage.app",
+    messagingSenderId: "30414791076",
+    appId: "1:30414791076:web:08d0d7494477ca5f912131"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  console.log("Firebase conectado correctamente");
+</script>
+
+    
+    
+    
     body {
       font-family: Arial, sans-serif;
       background-color: #f5f5f5;
